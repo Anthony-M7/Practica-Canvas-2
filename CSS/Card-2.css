@@ -24,7 +24,7 @@ h1 {
 main {
   max-width: 95%;
   height: 85vh;
-  background-image: url(../Recursos/Fondo\ Diseño.png);
+  background-image: url(../Recursos/FONDO\ TONY\ STARK.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   margin-left: auto;
@@ -58,7 +58,7 @@ main {
   margin-bottom: 1rem;
 }
 .content {
-  background-image: url(../Recursos/FONDO\ DISEÑO\ DIF.png);
+  background-image: url(../Recursos/Fonfo\ Tony\ Stark\ dif2.png);
   width: 100%;
   height: 50vh;
   background-size: cover;
