@@ -93,9 +93,6 @@ main {
   transform: scale(1.1);
   transition: 300ms ease;
 }
-.primero svg path {
-  fill: #fff;
-}
 .primero:nth-child(4) svg {
   width: 4.5rem;
   height: 4.5rem;
