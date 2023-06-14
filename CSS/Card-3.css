@@ -34,7 +34,7 @@ main {
   justify-content: center;
 }
 .principal {
-  background-color: #0007;
+  background-color: #0005;
   width: 100%;
   height: 85vh;
   display: flex;
@@ -59,17 +59,14 @@ main {
 }
 .content {
   background-image: url(../Recursos/Fondo\ 2\ VSC\ dif.png);
-  width: 100%;
-  height: 50vh;
   background-size: cover;
   background-repeat: no-repeat;
-  width: 50%;
-  height: 45vh;
+  width: 60%;
+  height: 50vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  padding: 2rem;
 }
 
 .primero {
@@ -94,7 +91,7 @@ main {
   transition: 300ms ease;
 }
 .primero svg path {
-  fill: #fff;
+  fill: burlywood;
 }
 .primero:nth-child(4) svg {
   width: 4.5rem;
@@ -139,4 +136,15 @@ main {
 .social img:hover {
   transform: scale(1.1);
   transition: 300ms ease;
+}
+.black-cape {
+  background-color: #0005;
+  width: 100%;
+  height: 41.6vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2rem;
 }
