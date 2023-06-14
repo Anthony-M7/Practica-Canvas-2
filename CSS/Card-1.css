@@ -1,0 +1,127 @@
+html {
+  font-size: 16px;
+  font-family: sans-serif;
+}
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: #f32;
+}
+main {
+  max-width: 95%;
+  height: 85vh;
+  background-image: url(../Recursos/Fondo\ Diseño.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.principal {
+  background-color: #0007;
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.principal h2 {
+  color: #fff;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  letter-spacing: 0.1rem;
+}
+.principal h3 {
+  color: #fff;
+  font-size: 1.2rem;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+.content {
+  background-image: url(../Recursos/FONDO\ DISEÑO\ DIF.png);
+  width: 100%;
+  height: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 45vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2rem;
+}
+
+.primero {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 120px;
+  width: 145px;
+}
+.primero h2 {
+  font-size: 1.2rem;
+  text-align: center;
+}
+.primero svg {
+  width: 5rem;
+  height: 5rem;
+}
+.primero svg:hover {
+  transform: scale(1.1);
+  transition: 300ms ease;
+}
+.primero svg path {
+  fill: #fff;
+}
+.primero:nth-child(4) svg {
+  width: 4.5rem;
+  height: 4.5rem;
+}
+
+.social {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1rem;
+  width: 15%;
+}
+
+.social a img {
+  width: 2rem;
+  height: 2rem;
+}
+.social a:nth-child(2) img {
+  width: 3rem;
+  height: 3rem;
+}
+@keyframes into-right {
+  0% {
+    opacity: 0;
+    transform: translateX(400%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.social a:nth-child(1) {
+  animation: into-right 500ms ease both;
+}
+.social a:nth-child(2) {
+  animation: into-right 500ms ease 300ms both;
+}
+.social a:nth-child(3) {
+  animation: into-right 500ms ease 600ms both;
+}
+.social img:hover {
+  transform: scale(1.1);
+  transition: 300ms ease;
+}
